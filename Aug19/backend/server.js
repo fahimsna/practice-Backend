@@ -6,6 +6,8 @@ const connectDB = require("./config/db");
 
 const app = express();
 
+
+
 connectDB();
 
 app.listen(process.env.PORT, () => {
